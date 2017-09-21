@@ -1,4 +1,8 @@
-#!/bin/bash         
+#!/bin/bash
+
+# install.sh
+# post-installation script for eOS
+# github.com/moikeha
 
 echo "Updating..."
 
