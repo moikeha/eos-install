@@ -40,4 +40,4 @@ echo "Cleaning up..."
 
 sudo apt autoremove
 
-echo "Finished..."
+echo "Finished."
