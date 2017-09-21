@@ -42,6 +42,6 @@ echo "Installing apps..."
 
 echo "Cleaning up..."
 
-sudo apt autoremove
+  sudo apt autoremove
 
 echo "Finished."
