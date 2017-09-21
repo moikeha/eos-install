@@ -1,37 +1,27 @@
 #!/bin/bash         
 
-/bin/echo -e "\e[96m
-    Updating...
-    \e[0m"
+echo "Updating..."
 
   sudo apt-get update
   sudo apt-get upgrade
 
-/bin/echo -e "\e[96m
-  Setting things up...
-  \e[0m"
+echo "Setting things up..."
 
   sudo apt-get install software-properties-common
 
-/bin/echo -e "\e[96m
-  Adding repos...
-  \e[0m"
+echo "Adding repos..."
 
   sudo add-apt-repository ppa:philip.scott/elementary-tweaks
   sudo add-apt-repository ppa:numix/ppa
   sudo apt-add-repository ppa:george-edison55/nitroshare
   sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
   
-/bin/echo -e "\e[96m
-  Updating...
-  \e[0m"
+echo "Updating..."
   
   sudo apt-get update
   sudo apt-get upgrade
 
-/bin/echo -e "\e[96m
-  Installing apps...
-  \e[0m"
+echo "Installing apps..."
   
   sudo apt-get install elementary-tweaks
   sudo apt-get install numix-icon-theme-circle
@@ -46,12 +36,8 @@
   sudo apt-get install google-chrome-stable
   sudo apt-get install libreoffice
 
-/bin/echo -e "\e[96m
-  Cleaning up...
-  \e[0m"
+echo "Cleaning up..."
 
 sudo apt autoremove
 
-/bin/echo -e "\e[96m
-  Finished...
-  \e[0m"
+echo "Finished..."
